@@ -255,7 +255,7 @@ select * from book
 where rental_price > 7.00;
 ```
 
-task 12 : Retrieve the List of Books Not Yet Returned
+Task 12 : Retrieve the List of Books Not Yet Returned
 
 ```sql
 select
@@ -268,6 +268,7 @@ where rs.return_id IS NULL;
 ```
 
 Advanced SQL Operations
+
 Task 13: Identify Members with Overdue Books
 Write a query to identify members who have overdue books (assume a 30-day return period). Display the member's_id, member's name, book title, issue date, and days overdue.
 
@@ -383,6 +384,7 @@ select * from active_members;
 Task 17: Find Employees with the Most Book Issues Processed
 Write a query to find the top 3 employees who have processed the most book issues. Display the employee name, number of books processed, and their branch.
 
+```sql
 select
     e.emp_name,
     b.*,
