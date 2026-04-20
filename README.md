@@ -17,9 +17,11 @@ Objectives
 
 5. Project Structure
 
-6. 1. Database Setup
-      Database Creation
-      Table Creation : Created tables for branches, employees, members, books, issued status, and         return status. Each table includes relevant columns and relationships.
+6. Database Setup
+      
+   Database Creation
+      
+   Table Creation : Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationship.
 
 ```sql
 create database sql_project2;
